@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <title>Weather App</title>
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <div class="card">
+            <div class="search">
+                <input type="text" class="search-bar" placeholder="Search">
+                <button><img src="search-interface-symbol.png";width="15px" height="15px"></button>
+            </div>
+            <div class="weather loading">
+                <h2 class="city">Weather in Taipei</h2>
+                <h1 class="temp">31°C</h1>
+                <div class="flex">
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" class="icon">
+                    <div class="description">Cloudy</div>
+                </div>
+                <div class="humidity">Humidity:60%</div>
+                <div class="wind">Wind speed:6.2km/h</div>
+            </div>
+        </div>
+    </body>
+</html>
