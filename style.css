@@ -28,7 +28,7 @@ button{
     border-radius: 50%;
     border:none;
     height: 46px;
-    width:46px;
+    width: 46px;
     outline: none;
     background-color: #7c7c7c2b;
     color: white;
@@ -47,7 +47,7 @@ input.search-bar{
     color: white;
     font-family: inherit;
     font-size: 120%;
-    width: calc(100%-100px)
+    /* width: 80%; */
 }
 
 h1.temp{
@@ -74,4 +74,16 @@ h1.temp{
     position:absolute;
     top:0;
     left:20px;
+}
+
+@media(max-width:500px){
+    input.search-bar{
+        width:90%;
+        font-size:16px;
+    }
+    button{
+        width:40px;
+        height:40px;
+    }
+
 }
